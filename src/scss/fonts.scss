@@ -1,27 +1,97 @@
 @font-face {
-    font-family: 'Courier Prime';
+    font-family: 'Hind';
     font-display: swap;
     font-weight: 700;
-    src: url('../src/fonts/CourierPrime-Bold.ttf') format(truetype);
+    src: url('../src/fonts/Hind-Bold.ttf') format(truetype);
 }
 
 @font-face {
-    font-family: 'Courier Prime';
+    font-family: 'Hind';
+    font-display: swap;
+    font-weight: 300;
+    src: url('../src/fonts/Hind-Light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-display: swap;
+    font-weight: 500;
+    src: url('../src/fonts/Hind-Medium.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Hind';
     font-display: swap;
     font-weight: 400;
-    src: url('../src/fonts/CourierPrime-Italic.ttf') format(truetype);
+    src: url('../src/fonts/Hind-Regular.ttf') format(truetype);
 }
 
 @font-face {
-    font-family: 'Courier Prime';
+    font-family: 'Jet Brains Mono';
     font-display: swap;
     font-weight: 700;
-    src: url('../src/fonts/CourierPrime-BoldItalic.ttf') format(truetype);
+    src: url('../src/fonts/JetBrainsMono-Bold.ttf') format(truetype);
 }
 
 @font-face {
-    font-family: 'Courier Prime';
+    font-family: 'Jet Brains Mono';
+    font-display: swap;
+    font-weight: 300;
+    src: url('../src/fonts/JetBrainsMono-Light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Jet Brains Mono';
+    font-display: swap;
+    font-weight: 500;
+    src: url('../src/fonts/JetBrainsMono-Medium.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Jet Brains Mono';
     font-display: swap;
     font-weight: 400;
-    src: url('../src/fonts/CourierPrime-Regular.ttf') format(truetype);
+    src: url('../src/fonts/JetBrainsMono-Italic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Jet Brains Mono';
+    font-display: swap;
+    font-weight: 700;
+    src: url('../src/fonts/JetBrainsMono-Bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Jet Brains Mono';
+    font-display: swap;
+    font-weight: 400;
+    src: url('../src/fonts/JetBrainsMono-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+    font-weight: 300;
+    src: url('../src/fonts/Poppins-Light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+    font-weight: 500;
+    src: url('../src/fonts/Poppins-Medium.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+    font-weight: 400;
+    src: url('../src/fonts/Poppins-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+    font-weight: 800;
+    src: url('../src/fonts/Poppins-ExtraBold.ttf') format(truetype);
 }
