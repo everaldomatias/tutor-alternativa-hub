@@ -1,0 +1,24 @@
+header.header-default{
+    border-bottom: solid 3px #38eb63;
+    .navbar-brand{
+        a{
+            img{
+                max-width: 150px;
+                width: 100%;
+            }
+        }
+    }
+    .navbar-utils{
+        .tutor-header-profile-content-text{
+            color: #fff;
+            font-weight: 700;
+        }
+        .tutor-header-profile-name{
+            font-family: 'Courier Prime';
+            color: #38eb63;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+    }
+}
