@@ -8,6 +8,38 @@ header.header-default{
             }
         }
     }
+    .menu-primary-container{
+        ul{
+            li{
+                :hover{
+                    color: #2b2b2b;
+                    background-color: #38eb63;
+                    border-radius: 4px;
+                    filter: none;
+                &::after{
+                    display: none;
+                }
+                }
+                a{
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                   
+                }
+            }
+            .menu-item.current-menu-item{
+                a{
+                    color: #2b2b2b;
+                    background-color: #38eb63;
+                    filter: none;
+                    border-radius: 4px;
+                    &::after{
+                        display: none;
+                    }
+
+                }
+            }
+        }
+    }
     .navbar-utils{
         .tutor-header-profile-content-text{
             color: #fff;
@@ -19,6 +51,27 @@ header.header-default{
             font-weight: 400;
             font-style: normal;
 
+        }
+        .tutor-header-submenu{
+            .tutor-submenu-login-section-instructor{
+                background: #2b2b2b;
+                .tutor-submenu-login-profile{
+                    color: #38eb63;
+                    font-family: 'Jet Brains Mono';
+                }
+                p{
+                    color: #38eb63;
+                    font-family: 'Jet Brains Mono';
+                }
+            }
+
+            .tutor-submenu-links{
+                font-family: 'Jet Brains Mono';
+                color: #2b2b2b;
+                :hover{
+                    color: #2b2b2b;
+                }
+            }
         }
     }
 }

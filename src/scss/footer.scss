@@ -1,0 +1,44 @@
+section.footer-widgets{
+    padding-top: 2rem;
+    padding-bottom: 0;
+    .container{
+        max-width: 1300px;
+        width: 100%;
+        border-bottom: 1px solid #38eb63;
+        padding-bottom: 1rem;
+        @media(max-width: 782px){
+            padding-left: 0;
+        }
+
+        .logo-footer{
+            @media(max-width: 782px){
+                margin-left: 0;
+            }
+        }
+       
+        section{
+            padding: 0.5rem;
+        }
+        h5{
+            color: #38eb63;
+            @media(max-width: 782px){
+                text-align: start;
+            }
+        }
+        p{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            @media(max-width: 782px){
+                text-align: start;
+                font-size: 12px;
+            }
+
+        }
+    }
+}
+footer.site-footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
