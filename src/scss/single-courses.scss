@@ -1,0 +1,33 @@
+.single-courses{
+    h2, h3{
+        color: #2b2b2b;
+        font-size: 1.5rem;
+    }
+    .tutor-course-details-title{
+        font-size: 2rem;
+    }
+    .tutor-course-details-info{
+        div{
+            color: #000;
+            font-weight: 700;
+            a{
+                color: #2b2b2b;
+                background-color: #38eb63;
+                font-weight: 700;
+                padding: 0.3rem 0.5rem;
+                border-radius: 4px;
+            }
+        }
+    }
+    .tutor-course-details-actions{
+        .tutor-btn-ghost{
+            color: #000;
+        }
+    }
+    .tutor-btn-primary{
+        background-color: #2b2b2b;
+        color: #38eb63;
+        border-radius: 4px;
+        border: none;
+    }
+}
