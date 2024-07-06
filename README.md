@@ -48,12 +48,20 @@ Para compilar os arquivos e assistir as mudanças durante o desenvolvimento, use
 npm run dev
 ```
 
-### Produção
+### Gerando o zip com os assets compilados
 
-Para criar a versão de produção dos arquivos, use:
+Para o zip do tema, use o script `zip.sh`:
+
+Torne o arquivo executável com o comando:
 
 ```bash
-npm run production
+sudo chmod +x zip.sh
+```
+
+Na raiz do tem,rode o comando:
+
+```bash
+sudo ./zip.sh
 ```
 
 ## Uso do SCSS
