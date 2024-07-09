@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "mix watch",
+        "dev-build": "mix",
         "production": "mix --production"
     },
     "devDependencies": {

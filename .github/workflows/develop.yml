@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Run dev build
-      run: npm run dev
+      run: npm run dev-build
 
     - name: Remove node_modules and other unnecessary folders
       run: |
