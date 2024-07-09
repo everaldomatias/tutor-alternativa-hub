@@ -1,5 +1,9 @@
 header.header-default{
     border-bottom: solid 3px #38eb63;
+    .navbar{
+        max-width: 1300px;
+        width: 100%;
+    }
     .navbar-brand{
         a{
             img{
