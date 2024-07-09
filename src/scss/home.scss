@@ -6,6 +6,7 @@
     }
     .entry-content{
         padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     .wp-block-qubely-row.topo{
@@ -17,7 +18,7 @@
         }
         .qubely-column-inner{
             :nth-child(1){
-                max-width: 212px;
+                max-width: 189px;
                 width: 100%;
 
             }
@@ -26,16 +27,49 @@
                 width: 100%;
             }
             :nth-child(3){
-                max-width: 517px;
+                max-width: 446px;
                 width: 100%;
             }
         } 
     }
     .alternativa-hub{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        .wp-block-heading{
+            max-width: 320px;
+            padding: 0;
+        }
+        .wp-block-qubely-row{
+            padding-bottom: 2rem;
+        }
+        .wp-block-button__link{
+            padding: 10px 2rem 3px 2rem;
+            font-weight: 700;
+            border: 1px solid;
+        }
+    }
+    .professores{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        .wp-block-heading:nth-of-type(1){
+            max-width: 270px;
+            padding: 0;
+        }
+        .wp-block-separator {
+            max-width: 1140px;
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+        .wp-block-heading:nth-of-type(2){
+            max-width: 400px;
+            padding: 0;
+        }            
+    }
+    .depoimentos{
         padding-top: 5rem;
         .wp-block-heading{
-            max-width: 290px;
             padding: 0;
+            max-width: 260px;
         }
     }
 }
