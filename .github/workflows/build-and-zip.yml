@@ -1,0 +1,34 @@
+name: Build and Zip WordPress Theme
+
+on:
+  push:
+    branches:
+      - actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run production build
+      run: npm run production
+
+    - name: Create zip of repository
+      run: zip -r tutor-alternativa-hub.zip ./*
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: wordpress-theme
+        path: tutor-alternativa-hub.zip
