@@ -1,9 +1,9 @@
-name: Build and Zip WordPress Theme
+name: Build dev environment
 
 on:
   push:
     branches:
-      - actions
+      - develop
 
 jobs:
   build:
@@ -21,8 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run production build
-      run: npm run production
+    - name: Run dev build
+      run: npm run dev
 
     - name: Remove node_modules and other unnecessary folders
       run: |
