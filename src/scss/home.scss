@@ -8,13 +8,34 @@
         padding-top: 0 !important;
     }
 
-    .topo{ 
-        .qubely-container{
-            .wp-block-qubely-heading{
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-    
+    .wp-block-qubely-row.topo{
+        .wp-block-qubely-heading{
+            padding: 1rem;
+            background-color: #2b2b2b;
+            
+
+        }
+        .qubely-column-inner{
+            :nth-child(1){
+                max-width: 212px;
+                width: 100%;
+
+            }
+            :nth-child(2){
+                max-width: 405px;
+                width: 100%;
+            }
+            :nth-child(3){
+                max-width: 517px;
+                width: 100%;
             }
         } 
+    }
+    .alternativa-hub{
+        padding-top: 5rem;
+        .wp-block-heading{
+            max-width: 290px;
+            padding: 0;
+        }
     }
 }
