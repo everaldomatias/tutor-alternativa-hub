@@ -59,6 +59,7 @@
             max-width: 1140px;
             width: 100%;
             margin-bottom: 3rem;
+            padding: 0;
         }
         .wp-block-heading:nth-of-type(2){
             max-width: 400px;
@@ -70,6 +71,9 @@
         .wp-block-heading{
             padding: 0;
             max-width: 260px;
+        }
+        .wp-block-qubely-column{
+            padding-right: 32px;
         }
     }
 }
