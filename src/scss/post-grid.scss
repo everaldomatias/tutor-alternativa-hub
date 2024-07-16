@@ -1,0 +1,39 @@
+.wp-block-qubely-postgrid{
+    .qubely-postgrid-wrapper{
+        .qubely-postgrid{
+            border: 1 px solid #000;
+            .qubely-post-grid-wrapper{
+                .qubely-post-grid-img{
+                    aspect-ratio: 16 / 9;
+                }
+                .qubely-post-grid-content{
+                    padding: 0 16px; 
+                    .qubely-postgrid-category{
+                        color: #000;
+                    }
+                    .qubely-postgrid-title{
+                        font-family: 'Jet Brains Mono';
+                        color: #000;
+                        font-size: 24px;
+                        a{
+                            :hover{
+                                color: #000;
+                            }
+                        }
+                    }
+                    .qubely-postgrid-meta{
+                        color: #000;
+                        span{
+                            color: #000;
+                        }
+                    }
+                    .qubely-postgrid-intro{
+                        font-family: 'Jet Brains Mono';
+                        color: #000;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
