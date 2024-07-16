@@ -43,32 +43,34 @@
         }
         .tutor-tab{
             .tutor-course-details-tab-info{
-                .tutor-accordion{
-                    .tutor-accordion-item{
-                        .tutor-accordion-item-header.is-active{
-                            background: #48eb63;
-                            font-weight: 700;
-                            &:hover{
+                .tutor-mt-40{
+                    .tutor-accordion{
+                        .tutor-accordion-item{
+                            .tutor-accordion-item-header.is-active{
+                                background-color: #48eb63;
+                                font-weight: 700;
                                 color: #000;
+                                &:hover{
+                                    color: #000;
+                                }
+                                ::after{
+                                    color: #000;
+                                }
                             }
-                            &::after{
+                            .tutor-accordion-item-header{
+                                background-color: #48eb63;
+                                font-weight: 700;
                                 color: #000;
-                            }
-                        }
-                        .tutor-accordion-item-header{
-                            background: #48eb63;
-                            font-weight: 700;
-                            &:hover{
-                                color: #000;
-                            }
-                            &::after{
-                                color: #000;
+                                &:hover{
+                                    color: #000;
+                                }
+                                ::after{
+                                    color: #000;
+                                }
                             }
                         }
                     }
                 }
-                
-                
             }
         }
     }

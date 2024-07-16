@@ -48,6 +48,17 @@
             border: 1px solid;
         }
     }
+    .cursos{
+        .wp-block-qubely-text{
+            .qubely-block-text-title{
+                background-color: #000;
+                color: #fff;
+                max-width: 390px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
     .professores{
         padding-top: 5rem;
         padding-bottom: 5rem;
@@ -65,6 +76,16 @@
             max-width: 400px;
             padding: 0;
         }            
+    }
+    .na-midia{
+        .wp-block-qubely-text{
+            .qubely-block-text-title{
+                background-color: #000;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
     }
     .depoimentos{
         padding-top: 5rem;
