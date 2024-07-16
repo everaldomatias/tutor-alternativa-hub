@@ -41,6 +41,36 @@
                 font-weight: 700;
             }        
         }
+        .tutor-tab{
+            .tutor-course-details-tab-info{
+                .tutor-accordion{
+                    .tutor-accordion-item{
+                        .tutor-accordion-item-header.is-active{
+                            background: #48eb63;
+                            font-weight: 700;
+                            &:hover{
+                                color: #000;
+                            }
+                            &::after{
+                                color: #000;
+                            }
+                        }
+                        .tutor-accordion-item-header{
+                            background: #48eb63;
+                            font-weight: 700;
+                            &:hover{
+                                color: #000;
+                            }
+                            &::after{
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+        }
     }
     .tutor-btn-primary{
         background-color:#38eb63;
