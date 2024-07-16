@@ -1,10 +1,11 @@
 .wp-block-qubely-postgrid{
     .qubely-postgrid-wrapper{
         .qubely-postgrid{
-            border: 1 px solid #000;
+            border: 1px solid #000;
             .qubely-post-grid-wrapper{
                 .qubely-post-grid-img{
                     aspect-ratio: 16 / 9;
+                    border-radius: 0;
                 }
                 .qubely-post-grid-content{
                     padding: 0 16px; 
@@ -16,7 +17,7 @@
                         color: #000;
                         font-size: 24px;
                         a{
-                            :hover{
+                            &:hover{
                                 color: #000;
                             }
                         }
@@ -25,6 +26,9 @@
                         color: #000;
                         span{
                             color: #000;
+                            a{
+                                color: #000;
+                            }
                         }
                     }
                     .qubely-postgrid-intro{
