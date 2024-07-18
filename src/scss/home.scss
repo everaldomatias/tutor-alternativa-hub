@@ -43,6 +43,20 @@
             padding-bottom: 2rem;
             max-width: 1300px;
             width: 100%;
+            .qubely-container{
+                margin: 0;
+                max-width: 1300px;
+                width: 100%;
+                .qubely-row {
+                    .wp-block-qubely-column{
+                        .qubely-column-inner{
+                            .wp-block-qubely-text{
+                                max-width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
         }
         .wp-block-button__link{
             padding: 10px 2rem 3px 2rem;
