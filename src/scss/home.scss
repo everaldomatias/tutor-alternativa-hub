@@ -39,8 +39,10 @@
             max-width: 320px;
             padding: 0;
         }
-        .wp-block-qubely-row{
+        .wp-block-qubely-row.colunas-alternativahub{
             padding-bottom: 2rem;
+            max-width: 1300px;
+            width: 100%;
         }
         .wp-block-button__link{
             padding: 10px 2rem 3px 2rem;
@@ -75,6 +77,30 @@
         .wp-block-heading:nth-of-type(2){
             max-width: 400px;
             padding: 0;
+        }
+        .wp-block-qubely-row.parceiros{
+            .qubely-container{
+                max-width: 1360px;
+                width: 100%;
+                .qubely-row{
+                    .wp-block-qubely-column{
+                        .qubely-olumn-inner{
+                            .wp-block-qubely-infobox{
+                                .qubely-block-info-box{
+                                    text-align: center;
+                                    .qubely-info-box-body{
+                                        text-align: start;
+                                        padding-left: 24px;
+                                        @media(max-width: 782px){
+                                            padding-left: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }    
+                }
+            }
         }            
     }
     .na-midia{
