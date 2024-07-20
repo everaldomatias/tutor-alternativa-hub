@@ -43,29 +43,36 @@
         }
         .tutor-tab{
             .tutor-course-details-tab-info{
+                .tutor-btn-show-more{
+                    color: #000;
+                    :hover,
+                    :focus{
+                        color: #000;
+                    }
+                }
                 .tutor-mt-40{
                     .tutor-accordion{
                         .tutor-accordion-item{
                             .tutor-accordion-item-header.is-active{
-                                background-color: #48eb63;
-                                font-weight: 700;
-                                color: #000;
-                                &:hover{
-                                    color: #000;
+                                background-color:#48eb63 !important; 
+                                font-weight: 700 !important;
+                                color: #000 !important;
+                                :hover{
+                                    color: #000 !important;
                                 }
-                                ::after{
-                                    color: #000;
+                                &::after{
+                                    color: #000 !important;
                                 }
                             }
                             .tutor-accordion-item-header{
-                                background-color: #48eb63;
-                                font-weight: 700;
-                                color: #000;
-                                &:hover{
-                                    color: #000;
+                                background-color: #48eb63 !important;
+                                font-weight: 700 !important;
+                                color: #000 !important;
+                                :hover{
+                                    color: #000 !important;
                                 }
-                                ::after{
-                                    color: #000;
+                                &::after{
+                                    color: #000 !important;
                                 }
                             }
                         }
@@ -74,7 +81,8 @@
             }
         }
     }
-    .tutor-btn-primary{
+    .tutor-btn-primary,
+    .tutor-btn-outline-primary{
         background-color:#38eb63;
         color:  #2b2b2b;
         border-radius: 4px;
