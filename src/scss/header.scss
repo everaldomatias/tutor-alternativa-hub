@@ -3,6 +3,24 @@ header.header-default{
     .navbar{
         max-width: 1300px;
         width: 100%;
+        @media(max-width: 991px){
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .navbar-toggler{
+        @media(max-width: 991px){
+            order: 3;
+        }
+        .toggle-icon{
+            span{
+                background: #38eb63;
+                &::after,
+                &::before{
+                    background: #38eb63;
+                }
+            }
+        }
     }
     .navbar-brand{
         a{
@@ -13,20 +31,21 @@ header.header-default{
         }
     }
     .menu-primary-container{
-        ul{
-            li{
-                :hover{
-                    color: #2b2b2b;
-                    background-color: #38eb63;
-                    border-radius: 4px;
-                    filter: none;
-                &::after{
-                    display: none;
-                    }
-                }
+        .navbar-nav{
+            .menu-item{
+                
                 a{
                     font-family: 'Poppins';
                     font-weight: 500;
+                    :hover{
+                        color: #2b2b2b;
+                        background-color: #38eb63;
+                        border-radius: 4px;
+                        filter: none;
+                    }
+                    &::after{
+                        display: none;
+                    }
                    
                 }
             }
@@ -45,6 +64,9 @@ header.header-default{
         }
     }
     .navbar-utils{
+        @media(max-width: 991px){
+            order: 2;
+        }
         .tutor-header-profile-content-text{
             color: #fff;
             font-weight: 700;

@@ -2,6 +2,7 @@
     .qubely-postgrid-wrapper{
         .qubely-postgrid{
             border: 1px solid #000;
+            border-radius: 0;
             .qubely-post-grid-wrapper{
                 .qubely-post-grid-img{
                     aspect-ratio: 16 / 9;
@@ -39,5 +40,24 @@
                 }
             }
         }
+    }
+}
+.tutor-grid{
+    .tutor-course-card,
+    .tutor-card-image-top{
+        border-radius: 0;
+    }
+    .tutor-course-name{
+        font-weight: 700;
+        a{
+            :hover{
+                color: #2b2b2b;
+            }
+        }
+    }
+    .list-item-button{
+        background-color: #38eb63;
+        color: #000;
+        font-weight: 700;
     }
 }
