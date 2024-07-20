@@ -2,7 +2,7 @@
     .qubely-postgrid-wrapper{
         .qubely-postgrid{
             border: 1px solid #000;
-            border-radius: 0;
+            border-radius: 0 !important;
             .qubely-post-grid-wrapper{
                 .qubely-post-grid-img{
                     aspect-ratio: 16 / 9;
@@ -57,7 +57,32 @@
     }
     .list-item-button{
         background-color: #38eb63;
+       a{
         color: #000;
         font-weight: 700;
+       }
+    }
+}
+.tutor-course-filter-container{
+    .tutor-course-filter-form{
+        .tutor-widget-course-filter{
+            .tutor-widget-content{
+                .tutor-btn-outline-primary {
+                    border-color: #38eb63;
+                    background-color: #38eb63;
+                    color: #000;
+                    font-weight: 700;
+                    :hover{
+                        border-color: #38eb63;
+                        background-color: #38eb63;
+                        color: #000;
+                        font-weight: 700;
+                    }
+                    .tutor-icon-times{
+                        color: #000;
+                    }
+                }
+            }
+        }
     }
 }

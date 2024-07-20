@@ -1,0 +1,45 @@
+.page{
+    // página sobre
+    &.page-id-3866{
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
+        .wp-block-group{
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .alternativa-hub{
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            .wp-block-heading{
+                max-width: 320px;
+                padding: 0;
+            }
+        }
+    }
+    &.page-id-3883{
+        // página atividades 
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
+        .wp-block-group{
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
