@@ -1,0 +1,105 @@
+.single-lesson{
+    .tutor-lesson-sidebar{
+        .tutor-course-topic{
+            .tutor-accordion-item-header.is-active{
+                color: #000;
+                font-weight: 700;
+            }
+            .tutor-accordion-item-header{
+                :hover{
+                    color: #000;
+                    font-weight: 700;
+                }
+                .tutor-row{
+                    .tutor-col{
+                        .tutor-course-topic-title{
+                            color: #000;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+            .tutor-accordion-item-body{
+                .is-active.tutor-course-topic-item{
+                    a{
+                        div{
+                            .tutor-course-topic-item-icon{
+                                color: #000;
+                            }
+                            .tutor-course-topic-item-title{
+                                color: #000;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+                .tutor-course-topic-item{
+                    a{
+                        div{
+                            .tutor-course-topic-item-title{
+                                color: #000;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                    :hover{
+                        a{
+                            div{
+                                .tutor-course-topic-item-title{
+                                    color: #41454f;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tutor-single-entry-content{
+        .tutor-course-topic-single-header{
+            .tutor-course-topic-single-header-title{
+                color: #000;
+                font-weight: 700;
+            }
+        }
+        .tutor-course-topic-single-body{
+            .tutor-course-spotlight-wrapper{
+                .tutor-nav{
+                    .tutor-nav-item{
+                        .tutor-nav-link.is-active{
+                            border-bottom-color: #000 ;
+                            color: #000;
+                            font-weight: 700;
+                        }
+                        .tutor-nav-link{
+                            color: #000;
+                            font-weight: 700;
+                        }        
+                    }
+                }
+            }
+        }
+
+    }
+    .tutor-course-topic-single-footer{
+        background-color: #EFF1F6;
+        border-top: 1px solid #ddd;
+        .tutor-single-course-content-prev,
+        .tutor-single-course-content-next{
+            .tutor-btn-secondary[disabled]{
+                background-color: #000;
+                color: #38eb63;
+                font-weight: 700;
+                border-radius: 0;
+                border: none;
+            }
+            .tutor-btn-secondary{
+                background-color: #38eb63;
+                color: #000;
+                font-weight: 700;
+                border-radius: 0;
+                border: none;
+            }
+        }
+    }
+}
