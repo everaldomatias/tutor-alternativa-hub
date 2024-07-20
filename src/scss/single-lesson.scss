@@ -34,17 +34,13 @@
                     }
                 }
                 .tutor-course-topic-item{
-                    a{
-                        div{
-                            .tutor-course-topic-item-title{
-                                color: #000;
-                                font-weight: 700;
-                            }
-                        }
-                    }
-                    :hover{
+                    
+                    &:hover{
                         a{
                             div{
+                                .tutor-course-topic-item-icon{
+                                    color: #41454f;
+                                }
                                 .tutor-course-topic-item-title{
                                     color: #41454f;
                                 }
