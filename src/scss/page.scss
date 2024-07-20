@@ -10,11 +10,7 @@
             padding-top: 0 !important;
             padding-bottom: 80px !important;
         }
-        .wp-block-group{
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+       
         .alternativa-hub{
             padding-top: 5rem;
             padding-bottom: 5rem;
@@ -22,6 +18,14 @@
                 max-width: 320px;
                 padding: 0;
             }
+        }
+
+        .unica,
+        .acesse{
+            max-width: 700px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     &.page-id-3883{
@@ -34,6 +38,16 @@
         .entry-content{
             padding-top: 0 !important;
             padding-bottom: 80px !important;
+        }
+        .wp-block-qubely-row{
+            .qubely-block-heading{
+                .qubely-heading-selector{
+                    background-color: #38eb63;
+                    max-width: 240px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }  
         }
         .wp-block-group{
             max-width: 700px;
