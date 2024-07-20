@@ -40,8 +40,9 @@
             margin-right: auto;
         }
     }
+
+    // página atividades 
     &.page-id-3883{
-        // página atividades 
         .container{
             max-width: 100% !important;
             padding-left: 0 !important;
@@ -61,13 +62,16 @@
                 }
             }  
         }
-        .wp-block-qubely-postgrid.qubely-block-91d976card-lab{
-            .qubely-postgrid{
-                max-width: 25%;
-                margin-left: auto;
-                margin-right: auto;
+        .card-lab{
+            .wp-block-qubely-postgrid{
+                .qubely-postgrid{
+                    max-width: 33%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
             }
         }
+        
         .wp-block-group{
             max-width: 700px;
             margin-left: auto;
