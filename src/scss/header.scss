@@ -30,37 +30,33 @@ header.header-default{
             }
         }
     }
-    .menu-primary-container{
+    .menu-principal-container{
         .navbar-nav{
-            .menu-item{
-                
-                a{
-                    font-family: 'Poppins';
-                    font-weight: 500;
-                    :hover{
-                        color: #2b2b2b;
-                        background-color: #38eb63;
-                        border-radius: 4px;
-                        filter: none;
-                    }
-                    &::after{
-                        display: none;
-                    }
-                   
-                }
-            }
             .menu-item.current-menu-item{
                 a{
                     color: #2b2b2b;
                     background-color: #38eb63;
                     filter: none;
-                    border-radius: 4px;
                     &::after{
                         display: none;
                     }
 
                 }
             }
+            .menu-item{
+                a{
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    &:hover{
+                        color: #2b2b2b;
+                        background-color: #38eb63;
+                        filter: none;
+                    }
+                    &::after{
+                        display: none;
+                    }
+                }
+            } 
         }
     }
     .navbar-utils{
