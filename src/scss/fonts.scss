@@ -95,3 +95,24 @@
     font-weight: 800;
     src: url('../src/fonts/Poppins-ExtraBold.ttf') format(truetype);
 }
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-display: swap;
+    font-weight: 400;
+    src: url('../src/fonts/Fira-Sans-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-display: swap;
+    font-weight: 700;
+    src: url('../src/fonts/FiraSans-Bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-display: swap;
+    font-weight: 400;
+    src: url('../src/fonts/FiraSans-Italic.ttf') format(truetype);
+}
