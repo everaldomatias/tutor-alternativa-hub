@@ -13,22 +13,23 @@
         .wp-block-qubely-heading{
             padding: 1rem;
             background-color: #2b2b2b;
-            
-
         }
         .qubely-column-inner{
             :nth-child(1){
                 max-width: 189px;
                 width: 100%;
+                font-family: 'Jet Brains Mono';
 
             }
             :nth-child(2){
                 max-width: 405px;
                 width: 100%;
+                font-family: 'Jet Brains Mono';
             }
             :nth-child(3){
                 max-width: 446px;
                 width: 100%;
+                font-family: 'Jet Brains Mono';
             }
         } 
     }
@@ -59,7 +60,7 @@
             }
         }
         .wp-block-button__link{
-            padding: 10px 2rem 3px 2rem;
+            padding: 10px 2rem 9px 2rem;
             font-weight: 700;
             border: 1px solid;
         }
