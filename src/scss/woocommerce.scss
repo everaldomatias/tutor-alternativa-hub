@@ -1,4 +1,11 @@
 .woocommerce-page{
+    .wc-block-cart{
+        max-width: 1270px;
+        width: 100%;
+        @media(max-width: 992px){
+            padding: 0 15px;
+        }
+    }
     .wc-block-cart-item__product{
         .wc-block-cart-item__wrap{
             .wc-block-components-product-name{
@@ -20,6 +27,12 @@
             }
         }
     }
+    .woocommerce{
+        max-width: 1270px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
     .wp-block-woocommerce-checkout-actions-block{
         .wc-block-checkout__actions_row{
             .wc-block-components-checkout-place-order-button{
@@ -29,6 +42,18 @@
                 font-weight: 700;
                 border-radius: 4px;
             }
+        }
+    }
+    .checkout-button{
+        border-color: #38eb63 !important;
+        background: #38eb63 !important;
+        color: #000 !important;
+        font-weight: 700 !important;
+        border-radius: 4px !important;
+        :hover{
+            border-color: #000 !important;
+            background: #000  !important;
+            color: #38eb63!important;
         }
     }
 }
