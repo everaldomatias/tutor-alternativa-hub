@@ -77,12 +77,18 @@
         }
     }
     .cursos-tema{
-        .wp-block-qubely-row{
-            .wp-block-qubely-heading{
-                background-color: #000;
-                h2{
-                    a{
-                        text-decoration: none;
+        .wp-block-qubely-column{
+            .wp-block-cover{
+                padding-left: 0;
+                padding-right: 0;
+                .wp-block-cover__inner-container{
+                    p{
+                        background-color: #2b2b2b;
+
+                        a{
+                            text-decoration: none;
+                            font-weight: 700;
+                        }
                     }
                 }
             }
