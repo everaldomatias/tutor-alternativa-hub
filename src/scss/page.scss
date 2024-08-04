@@ -4,162 +4,13 @@
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
-    .entry-content{
-        padding-top: 0 !important;
-        padding-bottom: 80px !important;
-    }
-
-    //home 2
-    &.page-id-4457{
-
-        .entry-content{
-            padding-bottom: 0 !important;
-        }
-        .wp-block-qubely-row.topo{
-            .wp-block-qubely-heading{
-                padding: 1rem;
-                background-color: #2b2b2b;
-            }
-            .qubely-column-inner{
-                :nth-child(1){
-                    max-width: 189px;
-                    width: 100%;
-                    font-family: 'Jet Brains Mono';
-    
-                }
-                :nth-child(2){
-                    max-width: 405px;
-                    width: 100%;
-                    font-family: 'Jet Brains Mono';
-                }
-                :nth-child(3){
-                    max-width: 446px;
-                    width: 100%;
-                    font-family: 'Jet Brains Mono';
-                }
-            } 
-        }
-        .alternativa-hub{
-            padding-top: 8rem;
-            padding-bottom: 8rem;
-            .wp-block-heading{
-                max-width: 320px;
-                padding: 0;
-            }
-            .wp-block-qubely-row.colunas-alternativahub{
-                padding-bottom: 2rem;
-                max-width: 1300px;
-                width: 100%;
-                .qubely-container{
-                    margin: 0;
-                    max-width: 1300px;
-                    width: 100%;
-                    .qubely-row {
-                        .wp-block-qubely-column{
-                            .qubely-column-inner{
-                                .wp-block-qubely-text{
-                                    max-width: 100%;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            .wp-block-button__link{
-                padding: 10px 2rem 9px 2rem;
-                font-weight: 700;
-                border: 1px solid;
-            }
-        }
-        .cursos{
-            .wp-block-qubely-text{
-                .qubely-block-text-title{
-                    background-color: #000;
-                    color: #fff;
-                    max-width: 390px;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            }
-        }
-        .cursos-tema{
-            .wp-block-qubely-row{
-                .wp-block-qubely-heading{
-                    background-color: #000;
-                    h2{
-                        a{
-                            text-decoration: none;
-                        }
-                    }
-                }
-            }
-        }
-        .professores{
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            .wp-block-heading:nth-of-type(1){
-                max-width: 270px;
-                padding: 0;
-            }
-            .wp-block-separator {
-                max-width: 1140px;
-                width: 100%;
-                margin-bottom: 3rem;
-                padding: 0;
-            }
-            .wp-block-heading:nth-of-type(2){
-                max-width: 400px;
-                padding: 0;
-            }
-            .wp-block-qubely-row.parceiros{
-                .qubely-container{
-                    max-width: 1360px;
-                    width: 100%;
-                    .qubely-row{
-                        .wp-block-qubely-column{
-                            .qubely-olumn-inner{
-                                .wp-block-qubely-infobox{
-                                    .qubely-block-info-box{
-                                        text-align: center;
-                                        .qubely-info-box-body{
-                                            text-align: start;
-                                            padding-left: 24px;
-                                            @media(max-width: 782px){
-                                                padding-left: 0;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }    
-                    }
-                }
-            }            
-        }
-        .na-midia{
-            .wp-block-qubely-text{
-                .qubely-block-text-title{
-                    background-color: #000;
-                    max-width: 500px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    color: #38eb63;
-                }
-            }
-        }
-        .depoimentos{
-            padding-top: 5rem;
-            .wp-block-heading{
-                padding: 0;
-                max-width: 260px;
-            }
-            .wp-block-qubely-column{
-                padding-right: 32px;
-            }
-        }
-    }
     // página sobre
     &.page-id-3866{
+
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
         
         .alternativa-hub{
             padding-top: 5rem;
@@ -193,6 +44,11 @@
 
     // página atividades 
     &.page-id-3883{
+
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
         
         .wp-block-qubely-row{
             .qubely-block-heading{
