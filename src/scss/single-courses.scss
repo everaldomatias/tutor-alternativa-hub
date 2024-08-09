@@ -68,5 +68,9 @@
         .tutor-card-body {
             background-color: #ededed;
         }
+
+        // Remove scrollbar da sidebar na single de curso
+        max-height: inherit !important;
+        overflow-y: auto !important;
     }
 }
