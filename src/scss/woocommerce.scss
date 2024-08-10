@@ -44,6 +44,24 @@
             }
         }
     }
+    .shop_table{
+        tfoot{
+            .order-total{
+                .woocommerce-Price-amount.amount{
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
+    .woocommerce-checkout-payment{
+        .methods{
+            .payment_method_virt_pagseguro{
+                .payment_method_virt_pagseguro{
+                    background-color: #fff !important;
+                } 
+            }
+        }
+    }
     .checkout-button{
         border-color: #38eb63 !important;
         background: #38eb63 !important;
@@ -51,9 +69,9 @@
         font-weight: 700 !important;
         border-radius: 4px !important;
         :hover{
-            border-color: #000 !important;
-            background: #000  !important;
-            color: #38eb63!important;
+            border-color: #38eb63 !important;
+            background: #38eb63 !important;
+            color: #000 !important;
         }
     }
 }
