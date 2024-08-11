@@ -40,6 +40,11 @@ section.footer-widgets{
                 font-size: 12px;
             }
         }
+        .wp-block-spacer{
+            @media(max-width: 782px){
+                display: none;
+            }
+        }
     }
 }
 footer.site-footer{

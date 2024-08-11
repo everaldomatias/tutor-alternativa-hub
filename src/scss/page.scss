@@ -188,9 +188,22 @@
         .alternativa-hub{
             padding-top: 5rem;
             padding-bottom: 5rem;
+            @media(max-width: 782px){
+                padding: 10px 15px;
+            }
             .wp-block-heading{
                 max-width: 320px;
                 padding: 0;
+            }
+            .qubely-container{
+                @media(max-width: 782px){
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                }
+            }
+            .wp-block-qubely-column{
+                padding-left: 15px !important;
+                padding-right: 0 !important;
             }
             .uma-alternativa{
                 max-width: 700px;
@@ -212,6 +225,20 @@
             width: 100%;
             margin-left: auto;
             margin-right: auto;
+            @media(max-width: 782px){
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+        .unica{
+            .qubely-container{
+                @media(max-width: 782px){
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
         }
     }
 
@@ -221,6 +248,10 @@
         .entry-content{
             padding-top: 0 !important;
             padding-bottom: 80px !important;
+            @media(max-width: 782px){
+                padding-left: 15px;
+                padding-right: 15px;
+            }
         }
         
         .wp-block-qubely-row{
@@ -239,6 +270,9 @@
                     max-width: 33%;
                     margin-left: auto;
                     margin-right: auto;
+                    @media(max-width: 782px){
+                        max-width: 100%;
+                    }
                 }
             }
         }
