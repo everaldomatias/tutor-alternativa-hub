@@ -1,0 +1,32 @@
+.plg-peepso {
+
+    --COLOR--PRIMARY: #38eb63;
+    --PS-COLOR--PRIMARY--SHADE: #9CF5B1;
+    --PS-COLOR--PRIMARY--LIGHT: #6AF08A;
+    --PS-COLOR--INFO--DARK: #208538;
+    --PS-COLOR--INFO: #38eb63;
+    --PS-COLOR--INFO--LIGHT: #6AF08A;
+    --PS-COLOR--INFO--ULTRALIGHT: #9CF5B1;
+
+    .ps-btn--action {
+        --bg--hover: #208538;
+        transition: all .3s ease-in-out;
+    }
+
+    .site-content {
+        > .container {
+            max-width: 1140px;
+        }
+    }
+
+    .ps-post__title {
+        align-items: center;
+        display: flex;
+        gap: .4rem;
+
+        .ps-post__author,
+        .ps-post__subtitle {
+            line-height: 1;
+        }
+    }
+}
