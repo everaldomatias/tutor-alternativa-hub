@@ -9,8 +9,17 @@
     --PS-COLOR--INFO--ULTRALIGHT: #9CF5B1;
 
     .ps-btn--action {
-        --bg--hover: #208538;
+        --bg--hover: #6AF08A;
         transition: all .3s ease-in-out;
+        color: #000 !important;
+        font-weight: 700 !important;
+    }
+
+    .psf-login__links{
+        a{
+            color: #000;
+            text-decoration: underline !important;
+        }
     }
 
     .site-content {
@@ -28,5 +37,20 @@
         .ps-post__subtitle {
             line-height: 1;
         }
+    }
+
+    .ps-post__call-to-action{
+        span{
+            a{
+                color: #000 !important;
+                text-decoration: underline !important;
+            }
+        }
+    }
+
+    #ps-no-more-posts{
+        background-color:#38eb63 !important;
+        border: none !important;
+        color: #000 !important;
     }
 }
