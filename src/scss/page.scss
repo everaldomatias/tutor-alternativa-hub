@@ -245,7 +245,7 @@
     }
 
     // página tipo de formação
-    &.page-id-4897{
+    &.page-id-3883{
         .container{
             max-width: 100% !important;
             padding-left: 0 !important;
@@ -287,6 +287,11 @@
             @media(max-width: 782px){
                 padding-left: 15px;
                 padding-right: 15px;
+            }
+            p{
+                a{
+                    color: #000;
+                }
             }
         }
     }
