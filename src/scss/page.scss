@@ -11,11 +11,57 @@
         --PS-COLOR--INFO--ULTRALIGHT: #9CF5B1;
 
         .site-content > .container {
-            max-width: 1140px !important;
+            max-width: 1140px;
             width: 100%;
             
         }
+
+        .ps-member,
+        .ps-navbar,
+        .ps-members__header{
+            border-radius: 0;
+            box-shadow: none;
+            border: 1px solid #000;
+        }
+        
+        .ps-navbar{ 
+            .ps-navbar__menu{
+                .ps-navbar__menu-item--home{
+                    border-right: none;
+                }
     
+                .ps-navbar__menu-item {
+                    .ps-navbar__menu-link{
+                        color: #000 !important;
+                    }
+                }
+            }
+            .ps-navbar__notifications{
+                .ps-navbar__menu-item, .ps-dropdown{
+                    a{
+                        color: #000 !important;
+                    }
+                }
+            }
+        }
+        .ps-members__header{
+            .ps-members__search{
+                border-right: none;
+            }
+        }
+
+        .ps-members{
+            .ps-member__header{
+               .ps-member__cover{
+                    border-radius: 0 !important;
+               }
+            }
+            .ps-friends__mutual, 
+            .ps-member__action{
+                color: #000 !important;
+            }
+        }
+        
         .ps-btn--action {
             --bg--hover: #6AF08A;
             transition: all .3s ease-in-out;
