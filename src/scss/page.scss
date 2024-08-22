@@ -18,7 +18,9 @@
 
         .ps-member,
         .ps-navbar,
-        .ps-members__header{
+        .ps-members__header,
+        .ps-form__field,
+        .ps-input--select{
             border-radius: 0;
             box-shadow: none;
             border: 1px solid #000;
@@ -63,10 +65,12 @@
         }
         
         .ps-btn--action {
-            --bg--hover: #6AF08A;
+            --bg--hover: #38eb63;
             transition: all .3s ease-in-out;
             color: #000 !important;
             font-weight: 700 !important;
+            font-size: 14px !important;
+            border-radius: 4px !important;
         }
     
         .psf-login__links{
@@ -101,11 +105,12 @@
                 }
             }
         }
-    
+        .ps-alert,
         #ps-no-more-posts{
             background-color:#38eb63 !important;
             border: none !important;
             color: #000 !important;
+            border-radius: 4px !important;
         }
     }
     
