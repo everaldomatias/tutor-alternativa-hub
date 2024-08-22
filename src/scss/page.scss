@@ -1,17 +1,12 @@
 .page{
     .container{
-        // max-width: 100% !important;
-        max-width: 100%;
+        max-width: 100% !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
     //home
     &.page-id-4457{
-        .container{
-            max-width: 100% !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
+       
         .entry-content{
             padding-top: 0 !important;
             padding-bottom: 0 !important;
@@ -182,12 +177,6 @@
     // página sobre
     &.page-id-3866{
 
-        .container{
-            max-width: 100% !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
-
         .entry-content{
             padding-top: 0 !important;
             padding-bottom: 80px !important;
@@ -252,12 +241,6 @@
 
     // página tipo de formação
     &.page-id-4897{
-
-        .container{
-            max-width: 100% !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
 
         .site-content{
             padding-top: 0 !important;
