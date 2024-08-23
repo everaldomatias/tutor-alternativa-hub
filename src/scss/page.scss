@@ -23,14 +23,23 @@
         .ps-landing,
         .ps-js-activity,
         .ps-js-groups-search-mode,
-        .ps-groups__tab,
-        .ps-groups__tab--active,
         .ps-group,
         .ps-postbox,
-        .ps-posts__filters-group {
+        .ps-input,
+        .ps-posts__filters-group,
+        .ps-btn__group,
+        .ps-groups__categories {
             border-radius: 0;
             box-shadow: none;
             border: 1px solid #000;
+        }
+
+        .ps-input{
+            padding: 11px;
+        }
+
+        .ps-btn{
+            border-radius: 0 !important;
         }
 
         .mb-20{
@@ -51,6 +60,40 @@
         .ps-stream-post-more{
             color: #000;
 
+        }
+
+
+        .ps-groups__tab--active{
+            background-color: #38eb63;
+            border-radius: 4px;
+            border: 1px solid #38eb63;
+            ::before,
+            ::after{
+                display: none;
+            }
+            a{
+                color: #000 !important;
+                font-weight: 700;
+            }
+        }
+
+        .ps-groups__tab{
+            box-shadow: none;
+            a{
+                font-weight: 700;
+                color: #000 !important;
+                border-radius: 4px;
+            }
+        }
+
+        
+
+        .ps-comment__action,
+        .activity-post-age,
+        .ps-comment__action{
+            a{
+                color: #000 !important;
+            }
         }
 
         .ps-posts__filter-toggle{
