@@ -25,7 +25,9 @@
         .ps-js-groups-search-mode,
         .ps-groups__tab,
         .ps-groups__tab--active,
-        .ps-group {
+        .ps-group,
+        .ps-postbox,
+        .ps-posts__filters-group {
             border-radius: 0;
             box-shadow: none;
             border: 1px solid #000;
@@ -39,9 +41,20 @@
         .ps-group__desc,
         .ps-group__details-item,
         .ps-group__details-item--more,
-        .ps-group__action{
+        .ps-group__action,
+        .ps-icon,
+        .ps-posts__filters-toggle,
+        .gcis,
+        .ps-comment__action,
+        .gcir,
+        .ps-post__subtitle,
+        .ps-stream-post-more{
             color: #000;
 
+        }
+
+        .ps-posts__filter-toggle{
+            color:#000 !important;
         }
 
         .ps-group__action{
