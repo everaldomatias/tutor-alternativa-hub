@@ -13,17 +13,63 @@
         .site-content > .container {
             max-width: 1140px;
             width: 100%;
-            
         }
 
         .ps-member,
         .ps-navbar,
         .ps-members__header,
         .ps-form__field,
-        .ps-input--select{
+        .ps-input--select,
+        .ps-landing,
+        .ps-js-activity,
+        .ps-js-groups-search-mode,
+        .ps-groups__tab,
+        .ps-groups__tab--active,
+        .ps-group {
             border-radius: 0;
             box-shadow: none;
             border: 1px solid #000;
+        }
+
+        .mb-20{
+            margin-bottom: 23px;
+        }
+
+        .ps-group__name,
+        .ps-group__desc,
+        .ps-group__details-item,
+        .ps-group__details-item--more,
+        .ps-group__action{
+            color: #000;
+
+        }
+
+        .ps-group__action{
+            font-weight: 700;
+            text-decoration: underline !important;
+        }
+
+        .ps-btn--login{
+            width: 100%;
+            justify-content: center;
+        }
+
+        .ps-landing__cover{
+            border-radius: 0;
+        }
+
+        .ps-js-groups-viewmode{
+            border: none !important;
+            color: #000 !important;
+            background-color: transparent !important;
+        }
+
+        .ps-group__privacy{
+            .ps-tip{
+                background-color: #38eb63 !important;
+                border-radius: 4px !important;
+                color: #000 !important;
+            }
         }
         
         .ps-navbar{ 
@@ -62,6 +108,10 @@
             .ps-member__action{
                 color: #000 !important;
             }
+        }
+
+        .ps-photos__list--photos{
+            border-radius: 0 !important;
         }
         
         .ps-btn--action {
