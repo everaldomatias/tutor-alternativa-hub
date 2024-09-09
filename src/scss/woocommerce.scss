@@ -77,17 +77,17 @@
             }
         }
     }
-    .checkout-button{
+    #place_order{
         border-color: #38eb63 !important;
         background: #38eb63 !important;
         color: #000 !important;
         font-weight: 700 !important;
         border-radius: 4px !important;
-        &:hover,
-        &:focus{
-            border-color: #38eb63 !important;
-            background: #38eb63 !important;
-            color: #000 !important;
-        }
+    }
+    :hover,
+    :focus{
+        border-color: #38eb63 !important;
+        background: #38eb63 !important;
+        color: #000 !important;
     }
 }
