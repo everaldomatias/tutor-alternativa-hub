@@ -1,4 +1,228 @@
 .page{
+    
+    //home
+    &.page-id-4143{
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .cursos{
+            @media(max-width:781px){
+                .qubely-container{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+        .acesse-tb{
+            .wp-block-group.is-layout-flex{
+                @media(max-width:781px){
+                    flex-direction: column;
+                    .wp-block-spacer{
+                        display: none;
+                    }
+                    
+                }
+
+                .qubely-image-caption{
+                    font-family: "Roboto Mono", serif;
+                    font-weight: 600;
+                }
+            }
+        }
+        .tematicas{
+            @media(max-width:781px){
+                :nth-child(2){
+                   
+                    .wp-block-columns{
+                        .wp-block-column:nth-of-type(2){
+                            display: none;
+                        }
+                        .wp-block-column:nth-of-type(3){
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .wp-block-qubely-button{
+                .qubely-block-btn-wrapper {
+                    .qubely-block-btn{
+                        a{
+                            text-decoration: none !important;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .parcerias{
+            @media(max-width:781px){
+                
+                :nth-child(4){
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    
+                }
+            }
+        }
+        .wp-block-qubely-button{
+            .qubely-block-btn-wrapper {
+                .qubely-block-btn{
+                    a{
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+            
+        }
+        .qubely-postgrid-btn{
+            text-decoration: underline !important;
+        }
+        
+    }
+
+    // seja parceiro
+    &.page-id-4130{
+        background-color: #fff;
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
+    }
+
+    // página sobre
+    &.page-id-3866{
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
+        
+        .alternativa-hub{
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            @media(max-width: 782px){
+                padding: 10px 15px;
+            }
+            .wp-block-heading{
+                max-width: 320px;
+                padding: 0;
+            }
+            .qubely-container{
+                @media(max-width: 782px){
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                }
+            }
+            .wp-block-qubely-column{
+                padding-left: 15px !important;
+                padding-right: 0 !important;
+            }
+            .uma-alternativa{
+                max-width: 700px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                .wp-block-heading{
+                    max-width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    padding-bottom: 0 !important;
+                }
+            }
+        }
+
+        .unica,
+        .acesse{
+            max-width: 700px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            @media(max-width: 782px){
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+        .unica{
+            .qubely-container{
+                @media(max-width: 782px){
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
+        }
+    }
+
+    // página tipo de formação
+    &.page-id-4897,
+    &.page-id-4832{
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
+        
+        .wp-block-qubely-row{
+            .qubely-block-heading{
+                .qubely-heading-selector{
+                    background-color: #38eb63;
+                    max-width: 240px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }  
+        }
+        .card-lab{
+            .wp-block-qubely-postgrid{
+                .qubely-postgrid{
+                    max-width: 33%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    @media(max-width: 782px){
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        
+        .wp-block-group{
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            @media(max-width: 782px){
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            p{
+                a{
+                    color: #000;
+                }
+            }
+        }
+    }
 
     &.plg-peepso {
 
@@ -219,212 +443,6 @@
             border: none !important;
             color: #000 !important;
             border-radius: 4px !important;
-        }
-    }
-    
-    //home
-    &.page-id-4143{
-        .container{
-            max-width: 100% !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
-        .entry-content{
-            padding-top: 0 !important;
-            padding-bottom: 0 !important;
-        }
-        .cursos{
-            @media(max-width:781px){
-                .qubely-container{
-                    padding-left: 0;
-                    padding-right: 0;
-                }
-            }
-        }
-        .acesse-tb{
-            .wp-block-group.is-layout-flex{
-                @media(max-width:781px){
-                    flex-direction: column;
-                    .wp-block-spacer{
-                        display: none;
-                    }
-                    .qubely-image-caption{
-                        font-family: "Roboto Mono", serif;
-                        font-weight: 600;
-                    }
-                }
-            }
-        }
-        .tematicas{
-            @media(max-width:781px){
-                :nth-child(2){
-                   
-                    .wp-block-columns{
-                        .wp-block-column:nth-of-type(2){
-                            display: none;
-                        }
-                        .wp-block-column:nth-of-type(3){
-                            display: none;
-                        }
-                    }
-                }
-            }
-            .wp-block-qubely-button{
-                .qubely-block-btn-wrapper {
-                    .qubely-block-btn{
-                        a{
-                            text-decoration: none !important;
-                        }
-                    }
-                }
-                
-            }
-        }
-        .parcerias{
-            @media(max-width:781px){
-                
-                :nth-child(4){
-                    padding-left: 16px;
-                    padding-right: 16px;
-                    
-                }
-            }
-        }
-        .wp-block-qubely-button{
-            .qubely-block-btn-wrapper {
-                .qubely-block-btn{
-                    a{
-                        text-decoration: underline !important;
-                    }
-                }
-            }
-            
-        }
-        .qubely-postgrid-btn{
-            text-decoration: underline !important;
-        }
-        
-    }
-    // página sobre
-    &.page-id-3866{
-        .container{
-            max-width: 100% !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
-
-        .entry-content{
-            padding-top: 0 !important;
-            padding-bottom: 80px !important;
-        }
-        
-        .alternativa-hub{
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            @media(max-width: 782px){
-                padding: 10px 15px;
-            }
-            .wp-block-heading{
-                max-width: 320px;
-                padding: 0;
-            }
-            .qubely-container{
-                @media(max-width: 782px){
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                }
-            }
-            .wp-block-qubely-column{
-                padding-left: 15px !important;
-                padding-right: 0 !important;
-            }
-            .uma-alternativa{
-                max-width: 700px;
-                width: 100%;
-                margin-left: auto;
-                margin-right: auto;
-                .wp-block-heading{
-                    max-width: 100%;
-                    margin-left: 0;
-                    margin-right: 0;
-                    padding-bottom: 0 !important;
-                }
-            }
-        }
-
-        .unica,
-        .acesse{
-            max-width: 700px;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            @media(max-width: 782px){
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-        }
-        .unica{
-            .qubely-container{
-                @media(max-width: 782px){
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                    margin-left: 0 !important;
-                    margin-right: 0 !important;
-                }
-            }
-        }
-    }
-
-    // página tipo de formação
-    &.page-id-4897,
-    &.page-id-4832{
-        .container{
-            max-width: 100% !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
-
-        .entry-content{
-            padding-top: 0 !important;
-            padding-bottom: 80px !important;
-        }
-        
-        .wp-block-qubely-row{
-            .qubely-block-heading{
-                .qubely-heading-selector{
-                    background-color: #38eb63;
-                    max-width: 240px;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            }  
-        }
-        .card-lab{
-            .wp-block-qubely-postgrid{
-                .qubely-postgrid{
-                    max-width: 33%;
-                    margin-left: auto;
-                    margin-right: auto;
-                    @media(max-width: 782px){
-                        max-width: 100%;
-                    }
-                }
-            }
-        }
-        
-        .wp-block-group{
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            @media(max-width: 782px){
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-            p{
-                a{
-                    color: #000;
-                }
-            }
         }
     }
 }
