@@ -233,6 +233,14 @@
             padding-top: 0 !important;
             padding-bottom: 0 !important;
         }
+        .cursos{
+            @media(max-width:781px){
+                .qubely-container{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
         .acesse-tb{
             .wp-block-group.is-layout-flex{
                 @media(max-width:781px){
@@ -261,7 +269,41 @@
                     }
                 }
             }
+            .wp-block-qubely-button{
+                .qubely-block-btn-wrapper {
+                    .qubely-block-btn{
+                        a{
+                            text-decoration: none !important;
+                        }
+                    }
+                }
+                
+            }
         }
+        .parcerias{
+            @media(max-width:781px){
+                
+                :nth-child(4){
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    
+                }
+            }
+        }
+        .wp-block-qubely-button{
+            .qubely-block-btn-wrapper {
+                .qubely-block-btn{
+                    a{
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+            
+        }
+        .qubely-postgrid-btn{
+            text-decoration: underline !important;
+        }
+        
     }
     // página sobre
     &.page-id-3866{
