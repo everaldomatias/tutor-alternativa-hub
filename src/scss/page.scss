@@ -99,8 +99,24 @@
             padding-top: 0 !important;
             padding-bottom: 80px !important;
         }
-        .seja-parceiro, .ambiente, .visao{
+        .seja-parceiro, .ambiente, .visao, .oferecemos{
             padding: 0;
+        }
+        .visao{
+            .wp-block-columns{
+                padding: 0;
+            }
+        }
+        .feita-para-img{
+            position: relative;
+            .logo-verde{
+                position: absolute;
+                top: 33%;
+                left: 43.5%;
+            }
+            .wp-block-qubely-button{
+                margin-top: -42px;
+            }
         }
     }
 
