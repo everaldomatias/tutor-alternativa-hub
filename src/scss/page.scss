@@ -158,11 +158,61 @@
             position: relative;
             .logo-verde{
                 position: absolute;
-                top: 33%;
-                left: 43.5%;
+                top: 31%;
+                left: 43.1%;
             }
             .wp-block-qubely-button{
                 margin-top: -42px;
+            }
+        }
+        .ambiente{
+            max-height: 510px !important;
+
+           .titulo-ambiente{
+            padding-top: 200px;
+           }
+           
+            .wp-block-group{
+                
+                .wp-block-columns{
+                    :nth-child(1){
+                        .wp-block-qubely-image{
+                            position: relative;
+                            bottom: 45px;
+                            right: 20px
+                        }
+                    }
+                    :nth-child(2){
+                        .wp-block-qubely-heading{
+                            position: relative;
+                            top: 95px;
+                            right: 100px
+                        }
+                        .wp-block-qubely-image{
+                            position: relative;
+                            bottom: 145px;
+                            right: 20px
+                        }
+                    }
+                }
+            }
+        }
+        .valores{
+            .item-valores{
+                .wp-block-qubely-button{
+                    max-width: 70%;
+                    a{
+                        display: flex;
+                        justify-content: flex-start;
+                        padding-left: 24px;
+                        pointer-events: none;
+                    }
+                }
+            }            
+        }
+        .inscricao{
+            .is-layout-flex{
+                margin-left: 95px;
             }
         }
     }
