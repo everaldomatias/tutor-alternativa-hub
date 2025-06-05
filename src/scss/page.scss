@@ -11,14 +11,56 @@
             padding-top: 0 !important;
             padding-bottom: 0 !important;
         }
-        .cursos{
+        
+        .cards-cursos{
+            margin-top: 32px;
+            padding-left: 32px;
+            padding-right: 32px;
+            
             @media(max-width:781px){
                 .qubely-container{
                     padding-left: 0;
                     padding-right: 0;
+                    grid-template-columns: 1fr;
+                }
+            }
+            .wp-block-post-template{
+                @media(max-width: 992px){
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+                @media(max-width: 781px){
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+            }
+            .wp-block-post{
+                background: #ebfdef;
+                border-radius: 12px;
+                font-family: "Roboto Mono", serif;
+                figure{
+                    margin: 0 0 16px;
+                    img{
+                        border-radius: 12px 12px 0 0;
+                    }
+                }
+                h2 {
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    a{
+                        font-family: "Roboto Mono", serif;
+                        text-decoration: none;
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+                p{
+                    padding-left: 16px;
                 }
             }
         }
+       
+        
         .acesse-tb{
             .wp-block-group.is-layout-flex{
                 @media(max-width:781px){
@@ -61,6 +103,11 @@
             }
         }
         .parcerias{
+            .cards-parcerias{
+                .wp-block-column{
+                    border-radius: 12px;
+                }
+            }
             @media(max-width:781px){
                 
                 :nth-child(4){
