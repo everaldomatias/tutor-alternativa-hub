@@ -392,6 +392,16 @@
                     }
                 }
             }
+            .wp-block-qubely-button{
+                .qubely-block-btn-wrapper {
+                    .qubely-block-btn{
+                        a{
+                            text-decoration: underline !important;
+                        }
+                    }
+                }
+                
+            }
         }
         @media(max-width: 781px){
             .sobre-a-plataforma, .pronto, .bloco-acordeon{
