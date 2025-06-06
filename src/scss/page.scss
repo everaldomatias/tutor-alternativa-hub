@@ -367,6 +367,18 @@
         .sobre-a-plataforma{
             padding: 0 0;
         }
+        .bloco-acordeon{
+            .qubely-accordion-item{
+                .qubely-accordion-icon{
+                    transform: rotate(90deg);
+                }
+            }
+            .qubely-accordion-item.qubely-accordion-active{
+                .qubely-accordion-icon{
+                    transform: rotate(180deg);
+                }
+            }  
+        }
         .pronto{
             .wp-block-group{
                 border-radius: 20px;
