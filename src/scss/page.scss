@@ -135,7 +135,9 @@
 
     // seja parceiro
     &.page-id-4130,
-    &.page-id-4657{
+    &.page-id-4657,
+    &.page-id-4418,
+    &.page-id-5984{
         background-color: #fff;
         .container{
             max-width: 100% !important;
@@ -352,8 +354,10 @@
         }
     }
 
-    // página sobre
-    &.page-id-3866{
+    //sobre
+    &.page-id-3866,
+    &.page-id-5926,
+    &.page-id-4413{
         .container{
             max-width: 100% !important;
             padding-left: 0 !important;
@@ -414,6 +418,27 @@
             }
         }
     }
+
+    //sobre a plataforma
+    &.page-id-5926,
+    &.page-id-4413{
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+
+        .wp-block-group{
+            
+            padding: 0 0;
+        }
+    }
+
 
     // página tipo de formação
     &.page-id-4897,
