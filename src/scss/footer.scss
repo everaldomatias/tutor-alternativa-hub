@@ -27,6 +27,7 @@ section.footer-widgets{
         }
         h5{
             color: #38eb63;
+            font-family: "Roboto Mono", serif;
             @media(max-width: 782px){
                 text-align: start;
             }
@@ -35,6 +36,7 @@ section.footer-widgets{
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            font-family: "Roboto Mono", serif;
             @media(max-width: 782px){
                 text-align: start;
                 font-size: 12px;

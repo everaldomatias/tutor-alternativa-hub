@@ -1,5 +1,5 @@
 header.header-default{
-    border-bottom: solid 3px #38eb63;
+    border-bottom: none;
     .navbar{
         max-width: 1300px;
         width: 100%;
@@ -45,7 +45,7 @@ header.header-default{
             }
             .menu-item{
                 a{
-                    font-family: 'Roboto';
+                    font-family: 'Roboto Mono', serif;
                     font-weight: 400;
                     &:hover{
                         color: #2b2b2b;

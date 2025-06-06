@@ -1,16 +1,22 @@
 .wp-block-qubely-postgrid{
     .qubely-postgrid-wrapper{
         .qubely-postgrid{
-            border: 1px solid #000;
-            border-radius: 0 !important;
             .qubely-post-grid-wrapper{
                 .qubely-post-grid-img{
                     aspect-ratio: 16 / 9;
-                    border-radius: 0;
+                    border-radius: 8px 8px 0 0;
                 }
                 .qubely-post-grid-content{
-                    padding: 0 16px; 
+                    padding: 0 16px 16px; 
                 }
+                .qubely-post-grid-content{
+                    background-color: #ebfdef;
+                    border-radius: 8px;
+                }
+                .qubely-postgrid-btn-wrapper{
+                    text-align: center;
+                }
+                
             }
         }
     }
