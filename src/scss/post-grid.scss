@@ -52,20 +52,34 @@
     .list-item-button,
     .tutor-course-booking-availability,
     .tutor-course-list-btn{
-        background-color: #38eb63;
-        border-radius: 4px;
+        background-color: #2b2b2b;
+        border-radius: 10px;
+        :hover{
+            color: #fff;
+            background-color: #2b2b2b;
+            border-radius: 10px;
+
+        }
        a{
-        color: #000;
-        font-weight: 700;
+        color: #fff;
         border: none;
+        padding: 16px 30px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: 400;
+        :hover{
+            color: #fff;
+            background-color: #2b2b2b;
+        }
        }
     }
 }
 .tutor-pagination{
     .tutor-pagination-numbers{
         .page-numbers.next{
-            background: #38eb63 !important;
-            border-radius: 4px; 
+            background: #2b2b2b !important;
+            border-radius: 4px;
+            color: #fff; 
         }
     }
 }
@@ -74,18 +88,23 @@
         .tutor-widget-course-filter{
             .tutor-widget-content{
                 .tutor-btn-outline-primary {
-                    border-color: #38eb63;
-                    background-color: #38eb63;
-                    color: #000;
-                    font-weight: 700;
+                    border-color: #2b2b2b;
+                    background-color: #2b2b2b;
+                    color: #fff;
+                    padding: 8px;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    font-weight: 400;
+                    font-size: 14px;
+                    border-radius: 10px;
                     :hover{
-                        border-color: #38eb63;
-                        background-color: #38eb63;
-                        color: #000;
-                        font-weight: 700;
+                        border-color: #2b2b2b;
+                        background-color: #2b2b2b;
+                        color: #fff;
+                        font-weight: 400;
                     }
                     .tutor-icon-times{
-                        color: #000;
+                        color: #fff;
                     }
                 }
             }
