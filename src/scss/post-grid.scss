@@ -22,9 +22,24 @@
     }
 }
 .tutor-grid{
-    .tutor-course-card,
+    .tutor-course-card{
+        border: none;
+        border-radius: 12px
+    }
     .tutor-card-image-top{
-        border-radius: 0;
+        border-radius: 12px 12px 0 0;
+    }
+    .tutor-card-body{
+        background-color: #ebfdef;
+        border-radius: 0 0 12px 12px;
+    }
+    .tutor-card-footer{
+        background-color: #ebfdef;
+        border-radius: 0 0 12px 12px;
+        border-top: none;
+    }
+    .tutor-ratio{
+        aspect-ratio: 3 / 2;
     }
     .tutor-course-name{
         font-weight: 700;
