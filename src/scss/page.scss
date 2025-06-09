@@ -183,10 +183,11 @@
         }
         .feita-para-img{
             position: relative;
+            max-width: 930px;
             .logo-verde{
                 position: absolute;
                 top: 31%;
-                left: 43.1%;
+                left: 40%;
             }
             .wp-block-qubely-button{
                 margin-top: -42px;
@@ -226,7 +227,16 @@
                         .wp-block-qubely-image{
                             position: relative;
                             bottom: 145px;
-                            right: 20px
+                            right: 20px;
+                            @media(max-width: 600px){
+                                left: 140px !important;
+                            }
+                            @media(max-width: 485px){
+                                left: 78px !important;
+                            }
+                            @media(max-width: 415px){
+                                left: 58px !important;
+                            }
                         }
                     }
                 }
@@ -250,6 +260,13 @@
                     }
                 }
             }            
+        }
+
+        .texto-curadoria{
+            @media(max-width: 781px){
+                padding-left: 16px;
+                padding-right: 16px;
+            }
         }
         .inscricao{
             .is-layout-flex{
@@ -302,7 +319,7 @@
                             }
                             .wp-block-qubely-image{
                                 position: relative;
-                                left: 53px;
+                                left: 253px;
                                 top: -190px;
                             }
                         }
@@ -347,7 +364,7 @@
                     }
                 }            
             }
-            .como-inscrever{
+            .como-inscrever, .texto-curadoria{
                 padding-left: 16px;
                 padding-right: 16px;
             }
