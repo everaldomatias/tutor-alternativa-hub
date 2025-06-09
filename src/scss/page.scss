@@ -39,6 +39,7 @@
                 background: #ebfdef;
                 border-radius: 12px;
                 font-family: "Roboto Mono", serif;
+                padding-bottom: 16px;
                 figure{
                     margin: 0 0 16px;
                     img{
@@ -57,6 +58,13 @@
                 }
                 p{
                     padding-left: 16px;
+                }
+                .wp-block-read-more{
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 12px;
+                    padding: 12px 32px;
+                    text-decoration: underline; 
                 }
             }
         }
