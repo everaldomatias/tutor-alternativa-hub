@@ -143,9 +143,7 @@
 
     // seja parceiro
     &.page-id-4130,
-    &.page-id-4657,
-    &.page-id-4418,
-    &.page-id-5984{
+    &.page-id-4657{
         background-color: #fff;
         .container{
             max-width: 100% !important;
@@ -463,7 +461,239 @@
         }
     }
 
+    //planos
+    &.page-id-4418,
+    &.page-id-5984{
+        background-color: #fff;
+        .container{
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
 
+        .entry-content{
+            padding-top: 0 !important;
+            padding-bottom: 80px !important;
+        }
+        .wp-block-qubely-button{
+            .qubely-block-btn-wrapper {
+                .qubely-block-btn{
+                    a{
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+            
+        }
+        .seja-parceiro, .ambiente, .visao, .oferecemos{
+            padding: 0;
+        }
+        .all-in-one{
+            .wp-block-qubely-button{
+                .qubely-block-btn-wrapper {
+                    .qubely-block-btn{
+                        a{
+                            text-decoration: none !important;
+                            pointer-events: none;
+                        }
+                    }
+                }
+               
+                
+            }
+        }
+        .visao{
+            .wp-block-columns{
+                padding: 0;
+            }
+        }
+        .feita-para-img{
+            position: relative;
+            max-width: 930px;
+            .logo-verde{
+                position: absolute;
+                top: 31%;
+                left: 40%;
+            }
+            .wp-block-qubely-button{
+                margin-top: -42px;
+                .qubely-block-btn-wrapper {
+                    .qubely-block-btn{
+                        a{
+                            text-decoration: none !important;
+                            pointer-events: none;
+                        }
+                    }
+                }
+            }
+        }
+        .ambiente{
+
+           .wp-block-cover{
+            height: 600px;
+           }
+           
+           .wp-block-group{
+                
+                .wp-block-columns{
+                    :nth-child(1){
+
+                        .wp-block-qubely-heading{
+                            position: relative;
+                            top: 90px;
+                            left: 180px;
+                        }
+                        
+                        .wp-block-qubely-image{
+                            position: relative;
+                            bottom: 0;
+                            right: 20px;
+                            top: 15px; 
+                        }
+                    }
+                    :nth-child(2){
+                        .wp-block-qubely-heading{
+                            position: relative;
+                            top: 290px;
+                            left: -130px;
+                        }
+                        .wp-block-qubely-image{
+                            position: relative;
+                            bottom: 0px;
+                            left: 220px;
+                        
+                        }
+                    }
+                }
+            }
+        }
+        .valores{
+            .item-valores{
+                .wp-block-qubely-button{
+                    max-width: 70%;
+
+                    .qubely-block-btn-wrapper {
+                        .qubely-block-btn{
+                            a{
+                                display: flex;
+                                justify-content: flex-start;
+                                padding-left: 24px;
+                                pointer-events: none;
+                                text-decoration: none !important;
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+
+        .texto-curadoria{
+            @media(max-width: 781px){
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+        }
+        .inscricao{
+            .is-layout-flex{
+                margin-left: 95px;
+            }
+        }
+      
+        //mobile
+        @media(max-width: 781px){
+            .seja-parceiro{
+                padding-bottom: 32px;
+                .wp-block-columns{
+                    display: flex;
+                    flex-direction: column;
+                    .wp-block-column:nth-of-type(1){
+                      margin-top: -1px;
+                    }
+                    .wp-block-column:nth-of-type(2){
+                        text-align: center;
+                        .is-layout-flex{
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                }
+                .wp-block-qubely-image{
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 20px;
+                }
+            }
+            .ambiente{
+               max-width: 100%;
+                .titulo-ambiente{
+                    padding-top: 50px;
+                    max-width: 340px;
+                }
+
+                .wp-block-group{
+                
+                    .wp-block-columns{
+                        :nth-child(1){
+                            .wp-block-qubely-heading{
+                                position: relative;
+                                top: 50px;
+                                left: 100px;
+                            }
+                        }
+                        :nth-child(2){
+                            .wp-block-qubely-heading{
+                                position: relative;
+                                top: 95px;
+                                left: -30px;
+                            }
+                        }
+                    }
+                }
+            }
+            .visao{
+                padding-bottom: 16px;
+                .wp-block-columns{
+                    .wp-block-column:nth-of-type(1){
+                        display: none;
+                    }
+                    .wp-block-column:nth-of-type(2){
+                        padding-right: 16px;
+                        padding-left: 16px; 
+                    }
+                    .wp-block-column:nth-of-type(3){
+                       display: none;
+                    }
+                }
+            }
+            .logo-verde{
+                display: none;  
+            }
+            .valores{
+                .wp-block-columns{
+                    .wp-block-column:nth-of-type(1){
+                        display: none;
+                    }
+                }
+                .item-valores{
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    .wp-block-qubely-button{
+                        max-width: 100%;
+                        a{
+                            display: flex;
+                            justify-content: flex-start;
+                            padding-left: 24px;
+                            pointer-events: none;
+                        }
+                    }
+                }            
+            }
+            .como-inscrever, .texto-curadoria{
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+        }
+    }
     // página tipo de formação
     &.page-id-4897,
     &.page-id-4832{
