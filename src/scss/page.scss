@@ -141,6 +141,15 @@
         
     }
 
+    &.home {
+        .n2-ss-slider-controls {
+            .n2-ss-control-bullet-horizontal {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
     // seja parceiro
     &.page-id-4130,
     &.page-id-4657{
