@@ -1,5 +1,23 @@
-.page{
-    
+.page {
+    // all pages
+    .container {
+        .wp-block-qubely-row {
+            .qubely-container-fluid {
+                @media (max-width: 991px) {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+
+                .qubely-row {
+                    @media (max-width: 991px) {
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+
     //home
     &.page-id-4143,
     &.page-id-4457{
@@ -465,7 +483,6 @@
         }
 
         .wp-block-group{
-            
             padding: 0 0;
         }
     }
@@ -726,6 +743,7 @@
             }
         }
     }
+
     // página tipo de formação
     &.page-id-4897,
     &.page-id-4832{
@@ -750,6 +768,7 @@
                 }
             }  
         }
+
         .card-lab{
             .wp-block-qubely-postgrid{
                 .qubely-postgrid{
@@ -762,7 +781,7 @@
                 }
             }
         }
-        
+
         .wp-block-group{
             max-width: 700px;
             margin-left: auto;
@@ -843,7 +862,6 @@
         .ps-post__subtitle,
         .ps-stream-post-more{
             color: #000 !important;
-
         }
 
 
